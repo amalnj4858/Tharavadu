@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(3, 252, 194,0.7);
+  background: linear-gradient(-45deg,rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  color : #ADD8E6;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+	width : 200px;
+	height: auto;
+}
+
+#card{
+	width: fit-content;
+	height: fit-content;
+	background-color: #89CFF0;
+	border-radius: 3px;
+	color : rgba(0,0,0,0.7);
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+ th, td {
+  border: 1px solid;
+  border-radius: 3px;
+  color : rgba(0,0,0,0.7);
+  background-color: #89CFF0;
+}
+
+table {
+	width : 600px ;
+}
+
+.gap1{
+	height: 100px;
+}
+
+.gap2{
+	height: 50px;
+}
+
+#Heading{
+	font-family: 'Shadows Into Light', sans-serif;
+	color : rgb(255,255,255);
+}
+
+#est{
+	font-family: 'Dancing Script', sans-serif;
+	color : rgb(255,255,255);
+}
+
+#logo {
+	width : 100px;
+	height: 100px;
+}
+
+#end{
+	color : rgb(255,255,255);
+}
